@@ -1,6 +1,44 @@
 .nav {
-  height: 80px;
   width: 100%;
-  background: transparent;
-  /* border: 1px solid black; */
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.content-container {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid blue; */
+  gap: 2%;
+}
+
+.content {
+  display: flex;
+  gap: 20%;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.text-container {
+  width: 100%;
+  font-size: 0.8vw;
+  text-align: start;
+  font-weight: 620;
+  /* border: 1px solid green; */
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: circle();
+  background-color: red;
+  padding: 20%;
+  width: 50%;
+  /* border: 1px solid blue; */
 }
