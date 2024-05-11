@@ -2,3 +2,12 @@
   height: 100%;
   width: 100%;
 }
+
+.header-section {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../public/slide-image-1920-d.jpg");
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+}
