@@ -9,6 +9,7 @@ function App() {
         <NavBar />
         <HomeContainer />
       </section>
+      <section className="couple-section"></section>
     </div>
   );
 }

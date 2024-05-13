@@ -1,6 +1,7 @@
 .App {
   height: 100%;
   width: 100%;
+  scroll-behavior: smooth;
 }
 
 .header-section {
@@ -8,6 +9,14 @@
   width: 100vw;
   background-image: url("../public/slide-image-1920-d.jpg");
   background-size: 100% 100%;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-repeat: no-repeat;
+}
+
+.couple-section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
 }
