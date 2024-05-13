@@ -1,0 +1,74 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 99.9%;
+  height: auto;
+  align-items: center;
+  /* justify-content: center; */
+  border: 1px solid red;
+  /* display: none; */
+}
+
+.couple-icon-1 {
+  color: red;
+}
+
+.couple-icon-2 {
+  color: gray;
+}
+
+@media (max-width: 600px) {
+  .heading {
+    text-align: center;
+    width: 100%;
+    /* border: 1px solid blue; */
+    padding: 10vw 0vw;
+    font-size: 11.5vw;
+  }
+
+  .paragraph {
+    /* border: 1px solid blue; */
+    text-align: center;
+    font-size: 3.5vw;
+    color: rgba(37, 35, 35, 0.91);
+    line-height: 5vw;
+  }
+
+  .couple-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 4vw 0vw;
+  }
+
+  .couple-content {
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4vw 0vw;
+  }
+
+  .couple-image {
+    width: 90%;
+    height: 60vh;
+    background-image: url("/public/him2.jpg");
+    background-size: 100% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .couple-image-content {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .couple-icon-3 {
+    color: white;
+  }
+}

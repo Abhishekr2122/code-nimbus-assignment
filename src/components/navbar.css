@@ -57,7 +57,7 @@
 
 @media (max-width: 600px) {
   .nav {
-    height: 90px;
+    height: 100px;
   }
 
   .content-container {
@@ -75,6 +75,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0vw 6vw;
+    /* border: 1px solid blue; */
   }
 
   .options {

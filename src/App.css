@@ -14,9 +14,18 @@
 }
 
 .couple-section {
-  width: 100vw;
   height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
-  background-color: white;
+  /* border: 1px solid green; */
+}
+@media (max-width: 600px) {
+  .couple-section {
+    width: 99.8vw;
+  }
+
+  .header-section {
+    width: 99.8vw;
+  }
 }
