@@ -19,6 +19,8 @@
 
 .content {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 20%;
   width: 100%;
   /* border: 1px solid red; */
@@ -26,10 +28,16 @@
 
 .text-container {
   width: 100%;
-  font-size: 0.8vw;
+  font-size: 0.9vw;
   text-align: start;
   font-weight: 620;
   /* border: 1px solid green; */
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo-container {
@@ -41,4 +49,45 @@
   padding: 20%;
   width: 50%;
   /* border: 1px solid blue; */
+}
+
+.responsive-nav {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    height: 90px;
+  }
+
+  .content-container {
+    display: none;
+  }
+
+  .text-container {
+    font-size: 2vw;
+  }
+
+  .responsive-nav {
+    display: block;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 6vw;
+  }
+
+  .options {
+    height: 7vh;
+    width: 7vw;
+  }
+
+  .iconcontainer {
+    clip-path: circle();
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw;
+  }
 }
